@@ -26,13 +26,7 @@ contract KarmaScore is IKarmaScore {
         return karma[user];
     }
 
-    function setAdmin(address admin, bool status) external override {
-        require(msg.sender == owner, "Only owner can assign admins");
-        admins[admin] = status;
-    }
-
     function isAdmin(address admin) external view override returns (bool) {
         return admins[admin];
     }
 }
-
