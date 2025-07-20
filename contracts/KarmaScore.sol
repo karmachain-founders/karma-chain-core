@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../contracts/interfaces/iKarmaScore.sol";
+import "../contracts/interfaces/IKarmaScore.sol";
 
-contract KarmaScore is iKarmaScore {
+contract KarmaScore is IKarmaScore {
     mapping(address => int256) private karma;
     mapping(address => bool) private admins;
     address public owner;
