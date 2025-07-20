@@ -1,22 +1,35 @@
 # Contributing to KarmaChain
 
-Thank you for your interest in contributing! Here are a few guidelines to help you get started.
+Welcome! 👋 We’re thrilled you're here. KarmaChain is an open-source project building decentralized trust infrastructure for Web3, DeFi, and beyond.
 
-## 🧰 Setup
-- Clone the repo
-- Run `npm install`
-- Use Hardhat or Foundry for testing
+## 🚀 How to Contribute
 
-## 📦 Pull Requests
-- Use clear commit messages
-- Submit to the `main` branch
-- Keep code clean and documented
+### 1. Fork this repository
+Create your own branch off of `main` and give it a clear name like `fix/token-validation-bug` or `feature/reputation-calculator`.
 
-## 🧪 Tests
-- Write tests for all new features
-- Use Hardhat test framework
+### 2. Write clean, tested code
+- Follow Solidity or Python best practices (depending on the module)
+- Include comments and documentation
+- Use `Prettier`, `ESLint`, or `Black` for formatting if applicable
 
-## 💬 Questions?
-Open an issue or discussion!
+### 3. Testing
+> All pull requests **must include tests** unless it’s documentation-only.
 
-Let's build something great together 🚀
+- Use existing test suites when possible
+- Keep tests fast, isolated, and readable
+
+### 4. Pull Requests
+- PRs must be linked to an Issue (or explain the context)
+- Include a clear description of what your code does
+- If the PR touches security or smart contracts: **tag with 🔒 `security` label**
+
+### 5. Code Reviews
+Your PR will be reviewed within **5 business days**
+- Be open to feedback
+- We strive for respectful, constructive reviews
+
+---
+
+## 📦 Project Structure
+
+
