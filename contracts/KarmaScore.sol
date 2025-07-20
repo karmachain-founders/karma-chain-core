@@ -1,1 +1,38 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+import "./interfaces/IKarmaScore.sol";
+
+contract KarmaScore is IKarmaScore {
+    mapping(address => int256) private karma;
+    mapping(address => bool) private admins;
+    address public owner;
+
+    modifier onlyAdmin() {
+        require(admins[msg.sender], "Not an admin");
+        _;
+    }
+
+    constructor() {
+        owner = msg.sender;
+        admins[msg.sender] = true;
+    }
+
+    function updateKarma(address user, int256 change) external override onlyAdmin {
+        karma[user] += change;
+    }
+
+    function getKarma(address user) external view override returns (int256) {
+        return karma[user];
+    }
+
+    function setAdmin(address admin, bool status) external override {
+        require(msg.sender == owner, "Only owner can assign admins");
+        admins[admin] = status;
+    }
+
+    function isAdmin(address admin) external view override returns (bool) {
+        return admins[admin];
+    }
+}
 
