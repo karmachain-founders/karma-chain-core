@@ -39,7 +39,7 @@ Your PR will be reviewed within **5 business days**
 For questions, ideas, or bugs:  
 - Open an Issue  
 - Join our upcoming Discord (TBA)  
-- Email: hello@karmachain.xyz
+- Email: support@karmachain.xyz
 
 ---
 
