@@ -15,3 +15,24 @@ KarmaChain is an open-source decentralized trust infrastructure for Web3, DeFi, 
 
 ## 🧱 Folder Structure
 
+
+---
+
+## 🛠️ Getting Started
+
+1. Fork the repo
+2. Clone your fork
+3. Set up local dev environment (Hardhat / Foundry / Truffle)
+4. Run tests: `npm test` or `forge test`
+
+---
+
+## 🤝 Contributing
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
