@@ -32,4 +32,24 @@ Your PR will be reviewed within **5 business days**
 
 ## 📦 Project Structure
 
+---
+
+## 🌐 Communication
+
+For questions, ideas, or bugs:  
+- Open an Issue  
+- Join our upcoming Discord (TBA)  
+- Email: hello@karmachain.xyz
+
+---
+
+## 🛡️ Code of Conduct
+
+We follow the [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).  
+Be respectful. Harassment or hate speech won’t be tolerated.
+
+---
+
+Together, let’s build a protocol for trust.  
+Thank you for contributing to KarmaChain. 🐝
 
